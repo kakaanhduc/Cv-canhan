@@ -1,0 +1,310 @@
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    /* font-family: sans-serif; */
+}
+
+.bg-grey {
+    background: #f1f0f0;
+}
+
+section > .container-duc{
+    width: 100%;
+    margin: auto;
+    display: block;  
+    padding: 30px 50px;
+}
+
+/* phần panner */
+
+#nav-bar {
+    text-align: center;
+   position: relative;
+    width: 100%;
+
+
+}
+
+#nav-bar a:nth-child(2){
+    margin-right: 30%;
+    border-left: none;
+}
+
+#nav-bar a:nth-child(4){
+    border-right: none;
+}
+
+.ten{
+    width: 110px;
+    height: 120px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%,  0);
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)), url(../images/banner.jpg);
+    height: 300px;
+    background-size: cover;
+    color: white;
+    position: relative;
+
+}
+
+
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+
+/* phần thông tin cá nhân */
+
+.thongtin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.bg-gray-light {
+    background-color: #eaebec;
+  }
+
+/* Thông tin kinh nghiệm */
+.row-cols-3 {
+    flex-wrap: wrap;
+    margin-top: -40px;
+    margin-left: -40px;
+  }
+  .row-cols-3 > * {
+    flex: 0 0 calc(33.33333% - 40px);
+    max-width: calc(33.33% - 40px) !important;
+    margin-top: 40px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .ic-megaphone,
+  .ic-strategy,
+  .ic-hotairballoon,
+  .ic-basket {
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+
+.nam a{
+    background-color: rgb(0, 132, 255);
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+.span1{
+background: #199cdb;
+display: inline-block;
+height: 4px;
+margin-right: 10px;
+width: 45px;
+}
+
+.span0{
+background: #dbdddf;
+display: inline-block;
+height: 4px;
+margin-right: 10px;
+width: 45px;
+}
+
+
+
+/* Phần chứng chỉ giải thưởng */
+
+.border-end_cv {
+    border-right: 1px solid #dee2e6;
+}
+
+.hinh{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+/* phần dự án */
+
+.duan{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.duan1{
+    grid-column: 1/-1;
+}
+
+.hinhcv{
+    width: 100%;
+}
+
+.cv-canhan{
+    border: 1px solid #ccc;
+    color: #464545;
+}
+
+.cv-canhan h4{
+    padding: 20px;
+}
+
+.kiemchung {
+    display: flex;
+    padding: 5%;
+    gap: 10%;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.tomau{
+    background-color: #199cdb;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+.table{
+    margin-bottom: 0px !important;
+}
+
+td{
+border-top: 1px solid #ccc;
+padding: 10px;
+text-align: left;
+vertical-align: top;
+}
+
+table td:first-child{
+    width: 30%;
+}
+
+.kiemchung-1{
+    display: flex;
+    gap: 3%;
+}
+
+.cv-canhan a{
+    color: #464545;
+    text-decoration: none;
+}
+
+.cv-canhan a:hover{
+    color: #199cdb;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 40px;
+}
+
+.footer i{
+    font-size: 20px;
+    color: #199cdb;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: #464545;
+}
+
+
+/* Phần cv */
+.border-10{
+    border: 15px solid blue;
+}
+
+.border-l-10{
+    border-left: 10px solid blue;
+
+}
+
+.border-bt-10{
+    border-bottom: 10px solid blue;
+
+}
+
+.bg-cv{
+    background-color: rgb(241, 252, 252);
+}
+
+.shadow-cv{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.so{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    width: 45px;
+    height: 50px;
+    background-color: #ac9dee;
+    border: 1px solid #383838;
+    border-radius: 50%;
+}
+
+.border-timeline{
+    border-bottom: 1px dashed rgb(174, 174, 252);
+    
+}
+
+.container p{
+    margin-bottom: 0.5rem;
+}
+
+.h-60-100{
+    height: 60%;
+}
+
+.h-40-100{
+    height: 40%;
+}
+
+/* .container h6{
+    padding-top: 10px;
+} */
+
+.border-bott{
+    border-bottom: 1px solid #ebe9e9;
+    padding-top: 10px;
+}
